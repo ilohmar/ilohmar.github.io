@@ -67,7 +67,7 @@ $(document).ready(function () {
         first = false;
         $p.append($tag);
     });
-    $p.appendTo($('header'));
+    $p.appendTo($('#preamble header')); // the first one, added ourselves
 
     // get from URL
     var params = parseURLParams(window.location.search.substring(1));
