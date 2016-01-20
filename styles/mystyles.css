@@ -46,6 +46,7 @@ footer {
   body {
     width: auto;
     padding: 0 3%;
+    padding-bottom: 25px;
   }
 
   header, #content, footer {
@@ -322,15 +323,15 @@ dt { font-weight: bold; }
 
 /* org's footnotes */
 
-.footpara:nth-child(2) { display: inline; }
-.footpara { display: block; }
+#footnotes { clear: both; }
 .footdef  { font-size: smaller; }
 .footdef > sup { display: inline-flex; width: 2%; }
-.footdef > p {
+.footpara {
   display: inline-block;
   width: 96%;
   vertical-align: top;
 }
+.footpara > p { margin: 0px; }
 
 
 
