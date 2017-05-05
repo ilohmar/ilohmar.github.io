@@ -35,7 +35,7 @@ function parseURLParams(query) {
 
 $(document).ready(function () {
     var tags = [
-        'emacs', 'cs', 'scheme' // --- TAGS --- //
+        'menschmaschine', 'quality', 'emacs', 'cs', 'scheme' // --- TAGS --- //
     ];
     // var timestamps = [
     //     new Date('2014-08-04')
